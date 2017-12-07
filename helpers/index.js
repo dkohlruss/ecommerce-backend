@@ -1,3 +1,6 @@
+const { Product } = require('../db/models/product');
+const { ObjectID } = require('mongodb');
+
 function makeCart(user) {
 	let cart = [];
 	while (user.cart.length > 0) {
@@ -43,4 +46,117 @@ function splitAndMakeArray(productObj) {
 	return products;
 }
 
-module.exports = { makeCart, splitAndMakeArray };
+function seedData() {
+	const users = [
+		{
+			_id: new ObjectID(),
+			username: 'dave123',
+			password: 'password1',
+			level: 1
+		},
+		{
+			_id: new ObjectID(),
+			username: 'steven',
+			password: '821viin21v',
+			level: 0
+		}
+	];
+
+	const products = [
+		{
+			name: 'Shiny Boots',
+			designer: 'Fancy Pants',
+			category: 'Boots',
+			price: '155.99',
+			description: "It's unlike anything else you've ever experienced.",
+			size: '9',
+			stock: 3
+		},
+		{
+			name: 'Shiny Boots',
+			designer: 'Fancy Pants',
+			category: 'Boots',
+			price: '155.99',
+			description: "It's unlike anything else you've ever experienced.",
+			size: '9.5',
+			stock: 0
+		},
+		{
+			name: 'Shiny Boots',
+			designer: 'Fancy Pants',
+			category: 'Boots',
+			price: '155.99',
+			description: "It's unlike anything else you've ever experienced.",
+			size: '10',
+			stock: 5
+		},
+		{
+			name: 'Glittery Jeans',
+			designer: 'Afflection',
+			category: 'Bottoms',
+			price: '89.99',
+			description:
+				"They're endorsed by everybody who does MMA and could totally, definitely beat you up if they weren't so drunk.",
+			size: '32',
+			color: 'Shiny',
+			stock: 20
+		},
+		{
+			name: 'Glittery Jeans',
+			designer: 'Afflection',
+			category: 'Bottoms',
+			price: '89.99',
+			description:
+				"They're endorsed by everybody who does MMA and could totally, definitely beat you up if they weren't so drunk.",
+			size: '34',
+			color: 'Shiny',
+			stock: 0
+		},
+		{
+			name: 'Lives 105',
+			designer: 'Lives Jeans',
+			category: 'Bottoms',
+			price: '49.99',
+			description: "A cool classic fit that you can't wait to wear",
+			size: '32',
+			color: 'Blue',
+			stock: 3
+		},
+		{
+			name: 'Extra Glittery Jeans',
+			designer: 'Afflection',
+			category: 'Bottoms',
+			price: '189.99',
+			description: "Don't look directly into them, you might go blind",
+			size: '34',
+			color: 'Shiny',
+			stock: 20
+		},
+		{
+			name: 'Stripey Shirt',
+			designer: 'Donnery Biltram',
+			category: 'Tops',
+			price: '89.99',
+			description: 'Experience the beauty of stripes, in shirt form',
+			size: 'Medium',
+			stock: 20
+		},
+		{
+			name: 'Wrist Watch',
+			designer: 'Gun-It',
+			category: 'Accesories',
+			price: '99.99',
+			description: 'It tells time, and looks cool.',
+			color: 'Shiny',
+			stock: 6
+		}
+	];
+
+	Product.remove({}).then(() => {
+		setTimeout(() => {
+			Product.insertMany(products);
+		}, 500);
+	});
+}
+
+module.exports = { makeCart, splitAndMakeArray, seedData };

@@ -37,15 +37,6 @@ const products = [
 		category: 'Boots',
 		price: '155.99',
 		description: "It's unlike anything else you've ever experienced.",
-		size: '9',
-		stock: 1
-	},
-	{
-		name: 'Shiny Boots',
-		designer: 'Fancy Pants',
-		category: 'Boots',
-		price: '155.99',
-		description: "It's unlike anything else you've ever experienced.",
 		size: '9.5',
 		stock: 0
 	},
@@ -78,7 +69,7 @@ const products = [
 			"They're endorsed by everybody who does MMA and could totally, definitely beat you up if they weren't so drunk.",
 		size: '34',
 		color: 'Shiny',
-		stock: 20
+		stock: 0
 	},
 	{
 		name: 'Lives 105',
@@ -99,6 +90,24 @@ const products = [
 		size: '34',
 		color: 'Shiny',
 		stock: 20
+	},
+	{
+		name: 'Stripey Shirt',
+		designer: 'Donnery Biltram',
+		category: 'Tops',
+		price: '89.99',
+		description: 'Experience the beauty of stripes, in shirt form',
+		size: 'Medium',
+		stock: 20
+	},
+	{
+		name: 'Wrist Watch',
+		designer: 'Gun-It',
+		category: 'Accesories',
+		price: '99.99',
+		description: 'It tells time, and looks cool.',
+		color: 'Shiny',
+		stock: 6
 	}
 ];
 

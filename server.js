@@ -12,9 +12,11 @@ const { ObjectId } = require('mongodb');
 const { mongoose } = require('./db/mongoose');
 const { User } = require('./db/models/user');
 const { Product } = require('./db/models/product');
-const { makeCart, splitAndMakeArray } = require('./helpers');
+const { makeCart, splitAndMakeArray, seedData } = require('./helpers');
 
 const port = process.env.PORT || 3001;
+
+seedData();
 
 const app = express();
 app.use(bodyParser.json());
