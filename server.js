@@ -14,6 +14,8 @@ const { User } = require('./db/models/user');
 const { Product } = require('./db/models/product');
 const { makeCart, splitAndMakeArray } = require('./helpers');
 
+const port = process.env.PORT || 3001;
+
 const app = express();
 app.use(bodyParser.json());
 app.use(cookieParser());
@@ -356,7 +358,7 @@ app.post('/api/products/edit', (req, res) => {
 	});
 });
 
-app.listen(3001, () => {
+app.listen(port, () => {
 	console.log('Server started on port 3001');
 });
 
