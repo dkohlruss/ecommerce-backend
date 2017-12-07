@@ -62,7 +62,7 @@ passport.use(
 );
 
 app.use(function(req, res, next) {
-	res.header('Access-Control-Allow-Origin', 'http://localhost:3000');
+	res.header('Access-Control-Allow-Origin', 'https://dkohlruss.github.io');
 	res.header('Access-Control-Allow-Credentials', true);
 	res.header(
 		'Access-Control-Allow-Headers',
@@ -281,7 +281,7 @@ app.get('/api/random', (req, res) => {
 	// });
 	Product.find({
 		name: {
-			$in: ['Lives 105', 'Glittery Jeans']
+			$in: ['Lives 105', 'Wrist Watch', 'Stripey Shirt']
 		}
 	}).then(result => {
 		res.send(result);
