@@ -22,7 +22,9 @@ app.use(cookieParser());
 app.use(
 	session({
 		secret: 'secretphrase',
-		store: new MongoStore({ mongooseConnection: mongoose.connection })
+		store: new MongoStore({ mongooseConnection: mongoose.connection }),
+		resave: true,
+		saveUninitialized: true
 	})
 );
 app.use(passport.initialize());
