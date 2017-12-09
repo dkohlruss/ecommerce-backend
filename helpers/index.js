@@ -144,7 +144,7 @@ function seedData() {
 		{
 			name: 'Wrist Watch',
 			designer: 'Gun-It',
-			category: 'Accesories',
+			category: 'Accessories',
 			price: '99.99',
 			description: 'It tells time, and looks cool.',
 			color: 'Shiny',
