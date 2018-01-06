@@ -85,7 +85,13 @@ function seedData() {
 			price: '155.99',
 			description: "It's unlike anything else you've ever experienced.",
 			size: '9.5',
-			stock: 0
+			stock: 0,
+			images: [
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/Boots1_ozuljm.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots2_ch5cen.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots3_ppqcis.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots4_ngv1zi.webp'
+			]
 		},
 		{
 			name: 'Shiny Boots',
@@ -94,7 +100,13 @@ function seedData() {
 			price: '155.99',
 			description: "It's unlike anything else you've ever experienced.",
 			size: '10',
-			stock: 5
+			stock: 5,
+			images: [
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/Boots1_ozuljm.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots2_ch5cen.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots3_ppqcis.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots4_ngv1zi.webp'
+			]
 		},
 		{
 			name: 'Glittery Jeans',
@@ -122,7 +134,13 @@ function seedData() {
 				"They're endorsed by everybody who does MMA and could totally, definitely beat you up if they weren't so drunk.",
 			size: '34',
 			color: 'Shiny',
-			stock: 0
+			stock: 0,
+			images: [
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/glitter-1_d6hz2a.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/glitter-2_vxdj8n.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/glitter-3_xt99nv.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200272/glitter-4_c17u7r.jpg'
+			]
 		},
 		{
 			name: 'Lives 105',
