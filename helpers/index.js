@@ -72,10 +72,10 @@ function seedData() {
 			size: '9',
 			stock: 3,
 			images: [
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/Boots1_ozuljm.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots2_ch5cen.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots3_ppqcis.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots4_ngv1zi.webp'
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/Boots1_ozuljm.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots2_ch5cen.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots3_ppqcis.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots4_ngv1zi.webp'
 			]
 		},
 		{
@@ -107,10 +107,10 @@ function seedData() {
 			color: 'Shiny',
 			stock: 20,
 			images: [
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/glitter-1_d6hz2a.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/glitter-2_vxdj8n.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/glitter-3_xt99nv.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200272/glitter-4_c17u7r.jpg'
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/glitter-1_d6hz2a.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/glitter-2_vxdj8n.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/glitter-3_xt99nv.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200272/glitter-4_c17u7r.jpg'
 			]
 		},
 		{
@@ -134,10 +134,10 @@ function seedData() {
 			color: 'Blue',
 			stock: 3,
 			images: [
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200485/lives-1_zdjan2.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200475/lives-2_uff7bj.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200479/lives-3_erulwj.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200477/lives-4_hm240x.jpg'
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200485/lives-1_zdjan2.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200475/lives-2_uff7bj.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200479/lives-3_erulwj.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200477/lives-4_hm240x.jpg'
 			]
 		},
 		{
@@ -150,10 +150,10 @@ function seedData() {
 			color: 'Shiny',
 			stock: 20,
 			images: [
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/extrag-1_skoord.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/extrag-2_h1gq9w.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/extrag-3_kdr2i7.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/extrag-4_i9mumo.jpg'
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/extrag-1_skoord.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/extrag-2_h1gq9w.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/extrag-3_kdr2i7.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/extrag-4_i9mumo.jpg'
 			]
 		},
 		{
@@ -165,10 +165,10 @@ function seedData() {
 			size: 'Medium',
 			stock: 20,
 			images: [
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/shirt-2_i7vxv1.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/shirt-4_ponqd5.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/shirt-3_ssbhzo.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/shirt-1_xeoytm.jpg'
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/shirt-2_i7vxv1.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/shirt-4_ponqd5.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/shirt-3_ssbhzo.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/shirt-1_xeoytm.jpg'
 			]
 		},
 		{
@@ -180,10 +180,10 @@ function seedData() {
 			color: 'Shiny',
 			stock: 6,
 			images: [
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200272/watch-4_rxcaeu.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200272/watch-3_mymdx5.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200272/watch-2_lhn7s3.jpg',
-				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/watch-1_hhptau.jpg'
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200272/watch-4_rxcaeu.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200272/watch-3_mymdx5.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200272/watch-2_lhn7s3.jpg',
+				'https://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/watch-1_hhptau.jpg'
 			]
 		}
 	];
