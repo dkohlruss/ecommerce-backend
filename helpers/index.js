@@ -70,7 +70,13 @@ function seedData() {
 			price: '155.99',
 			description: "It's unlike anything else you've ever experienced.",
 			size: '9',
-			stock: 3
+			stock: 3,
+			images: [
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/Boots1_ozuljm.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots2_ch5cen.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots3_ppqcis.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/boots4_ngv1zi.webp'
+			]
 		},
 		{
 			name: 'Shiny Boots',
@@ -99,7 +105,13 @@ function seedData() {
 				"They're endorsed by everybody who does MMA and could totally, definitely beat you up if they weren't so drunk.",
 			size: '32',
 			color: 'Shiny',
-			stock: 20
+			stock: 20,
+			images: [
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/glitter-1_d6hz2a.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/glitter-2_vxdj8n.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/glitter-3_xt99nv.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200272/glitter-4_c17u7r.jpg'
+			]
 		},
 		{
 			name: 'Glittery Jeans',
@@ -120,7 +132,13 @@ function seedData() {
 			description: "A cool classic fit that you can't wait to wear",
 			size: '32',
 			color: 'Blue',
-			stock: 3
+			stock: 3,
+			images: [
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200485/lives-1_zdjan2.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200475/lives-2_uff7bj.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200479/lives-3_erulwj.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200477/lives-4_hm240x.jpg'
+			]
 		},
 		{
 			name: 'Extra Glittery Jeans',
@@ -130,7 +148,13 @@ function seedData() {
 			description: "Don't look directly into them, you might go blind",
 			size: '34',
 			color: 'Shiny',
-			stock: 20
+			stock: 20,
+			images: [
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/extrag-1_skoord.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/extrag-2_h1gq9w.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/extrag-3_kdr2i7.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200270/extrag-4_i9mumo.jpg'
+			]
 		},
 		{
 			name: 'Stripey Shirt',
@@ -139,7 +163,13 @@ function seedData() {
 			price: '89.99',
 			description: 'Experience the beauty of stripes, in shirt form',
 			size: 'Medium',
-			stock: 20
+			stock: 20,
+			images: [
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/shirt-2_i7vxv1.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/shirt-4_ponqd5.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/shirt-3_ssbhzo.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/shirt-1_xeoytm.jpg'
+			]
 		},
 		{
 			name: 'Wrist Watch',
@@ -148,7 +178,13 @@ function seedData() {
 			price: '99.99',
 			description: 'It tells time, and looks cool.',
 			color: 'Shiny',
-			stock: 6
+			stock: 6,
+			images: [
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200272/watch-4_rxcaeu.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200272/watch-3_mymdx5.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200272/watch-2_lhn7s3.jpg',
+				'http://res.cloudinary.com/dvk4hszcg/image/upload/v1515200271/watch-1_hhptau.jpg'
+			]
 		}
 	];
 

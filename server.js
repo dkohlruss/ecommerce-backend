@@ -266,7 +266,8 @@ app.get('/api/', (req, res) => {
 			$group: {
 				_id: '$name',
 				price: { $first: '$price' },
-				category: { $first: '$category' }
+				category: { $first: '$category' },
+				images: { $first: '$images' }
 			}
 		}
 	]).then(result => {
@@ -310,7 +311,8 @@ app.get('/api/product/:name', (req, res) => {
 				color: result[0].color,
 				stock: result.map(product => {
 					return product.stock;
-				})
+				}),
+				images: result[0].images
 			};
 			console.log('Product result for fetch: ', product);
 
@@ -321,7 +323,7 @@ app.get('/api/product/:name', (req, res) => {
 		});
 });
 
-app.post('/api/products/new', (req, res) => {
+app.put('/api/products/new', (req, res) => {
 	// Adds a new item with parameters from form
 	// Should require user auth and admin status (TODO)
 	let body = _.pick(req.body, [
@@ -345,7 +347,7 @@ app.post('/api/products/new', (req, res) => {
 		});
 });
 
-app.post('/api/products/edit', (req, res) => {
+app.put('/api/products/edit', (req, res) => {
 	let products = splitAndMakeArray(req.body);
 
 	Product.deleteMany({ name: req.body.name }).then(result => {
